@@ -1,0 +1,22 @@
+artifact_path: /Users/lgapro/Documents/Maestria/10.- CD Aplicada/Tarea 2/Tarea_LGA/mlruns/1/models/m-95a527ba7b82484bb19187c1c97791a9/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.13.0
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: ubj
+    xgb_version: 3.2.0
+mlflow_version: 3.11.1
+model_id: m-95a527ba7b82484bb19187c1c97791a9
+model_size_bytes: 7678008
+model_uuid: m-95a527ba7b82484bb19187c1c97791a9
+prompts: null
+run_id: c43593c7ad2d4acbaa4e4c3888d0c57c
+utc_time_created: '2026-04-29 02:09:36.453880'
