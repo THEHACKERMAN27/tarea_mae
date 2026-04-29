@@ -34,13 +34,24 @@ ml-pipeline/
 
 ---
 
-## Instalación
+## 🛠️ Instalación
 
-```bash
-git clone <url-del-repositorio>
-cd ml-pipeline
-pip install -r requirements.txt
-```
+1. **Clonar el repositorio:**
+   ```bash
+   git clone https://github.com/THEHACKERMAN27/tarea_mae.git
+   cd tarea_mae
+   ```
+
+2. **Crear un entorno virtual (Recomendado):**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # En Windows: venv\Scripts\activate
+   ```
+
+3. **Instalar dependencias:**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ---
 
